@@ -124,8 +124,8 @@ jupyter notebook notebooks/Final.ipynb
 
 <hr>
 
-<h2>👤 Author</h2>
-<p><b>Álvaro Garabal Castro</b><br>
+<h2>👤 Authors</h2>
+<p><b>Álvaro Garabal Castro, Marc Camps, Ankur Chauhan, Serkan Musellim</b><br>
 🎓 MSc in Artificial Intelligence, University of Edinburgh<br>
 🔗 <a href="https://www.linkedin.com/in/alvarogarabal">LinkedIn</a> • 
 <a href="https://github.com/yourusername">GitHub</a></p>
@@ -138,3 +138,4 @@ jupyter notebook notebooks/Final.ipynb
   <li>Deploy the trained genre classifier as an API endpoint.</li>
   <li>Expand the dataset with additional streaming metrics.</li>
 </ul>
+
