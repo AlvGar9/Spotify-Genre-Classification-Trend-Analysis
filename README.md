@@ -1,4 +1,4 @@
-<h1 align="center">🎧 Spotify Genre Classification & Trend Analysis</h1>
+<h1 align="center">Spotify Genre Classification & Trend Analysis</h1>
 
 <p align="center">
 <b>End-to-end data pipeline leveraging the Spotify API, web scraping, and machine learning to classify and analyze musical genres.</b>
@@ -6,13 +6,13 @@
 
 <hr>
 
-<h2>🌟 Overview — What It Does</h2>
+<h2>Overview — What It Does</h2>
 <p>
 This project builds a complete data workflow to collect, enrich, and analyze Spotify music data — from raw metadata extraction to genre classification and trend modeling.  
 It demonstrates real-world skills in <b>data acquisition, preprocessing, NLP, and machine learning</b> by integrating multiple stages into one cohesive system.
 </p>
 
-<h2>💡 Impact & Motivation — Why It Matters</h2>
+<h2>Impact & Motivation — Why It Matters</h2>
 <p>
 The music industry produces massive amounts of streaming data, but understanding <b>genre relationships</b> and <b>trends in popularity</b> remains challenging.  
 This project shows how data engineering and ML techniques can turn raw Spotify metadata into actionable insights, such as:
@@ -23,7 +23,7 @@ This project shows how data engineering and ML techniques can turn raw Spotify m
   <li>Exploring semantic relationships between genres using BERT embeddings.</li>
 </ul>
 
-<h2>⚙️ Project Workflow — How It Works</h2>
+<h2>Project Workflow — How It Works</h2>
 
 <pre>
 1. Data Collection ─ <b>spotify_api.ipynb</b>  
@@ -42,7 +42,7 @@ This project shows how data engineering and ML techniques can turn raw Spotify m
    → Cluster genres using Sentence-BERT embeddings
 </pre>
 
-<h2>🧠 Key Results</h2>
+<h2>Key Results</h2>
 <ul>
   <li><b>Accurate genre classification:</b> Models such as Random Forest and CatBoost successfully predicted parent genres with strong performance.</li>
   <li><b>Data enrichment at scale:</b> Automated scraping extended Spotify’s metadata with hierarchical genre labels.</li>
@@ -53,7 +53,7 @@ This project shows how data engineering and ML techniques can turn raw Spotify m
 
 <hr>
 
-<h2>🧩 Tech Stack</h2>
+<h2>Tech Stack</h2>
 <table>
 <tr><th>Category</th><th>Tools & Libraries</th></tr>
 <tr><td>Data Access</td><td>Spotify API, Spotipy</td></tr>
@@ -67,9 +67,9 @@ This project shows how data engineering and ML techniques can turn raw Spotify m
 
 <hr>
 
-<h2>🗂 Repository Structure</h2>
+<h2>Repository Structure</h2>
 <pre>
-📦 spotify-genre-analysis/
+spotify-genre-analysis/
  ┣ 📂 notebooks/
  ┃ ┣ spotify_api.ipynb
  ┃ ┣ Final.ipynb
@@ -87,7 +87,7 @@ This project shows how data engineering and ML techniques can turn raw Spotify m
 
 <hr>
 
-<h2>⚡ Setup & Usage</h2>
+<h2>Setup & Usage</h2>
 
 <h3>1️⃣ Install dependencies</h3>
 <pre><code>pip install -r requirements.txt</code></pre>
@@ -114,7 +114,7 @@ jupyter notebook notebooks/Final.ipynb
 
 <hr>
 
-<h2>📈 Insights & Takeaways</h2>
+<h2>Insights & Takeaways</h2>
 <ul>
   <li>Demonstrates <b>end-to-end ML system design</b>, from data acquisition to model evaluation.</li>
   <li>Combines <b>API integration, web scraping, feature engineering, and ML classification</b>.</li>
@@ -132,10 +132,11 @@ jupyter notebook notebooks/Final.ipynb
 
 <hr>
 
-<h2>🪄 Next Steps</h2>
+<h2>Next Steps</h2>
 <ul>
   <li>Develop an interactive dashboard for visualizing genre trends.</li>
   <li>Deploy the trained genre classifier as an API endpoint.</li>
   <li>Expand the dataset with additional streaming metrics.</li>
 </ul>
+
 
