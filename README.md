@@ -6,13 +6,13 @@
 
 <hr>
 
-<h2>Overview — What It Does</h2>
+<h2>Overview</h2>
 <p>
 This project builds a complete data workflow to collect, enrich, and analyze Spotify music data — from raw metadata extraction to genre classification and trend modeling.  
 It demonstrates real-world skills in <b>data acquisition, preprocessing, NLP, and machine learning</b> by integrating multiple stages into one cohesive system.
 </p>
 
-<h2>Impact & Motivation — Why It Matters</h2>
+<h2>Impact & Motivation</h2>
 <p>
 The music industry produces massive amounts of streaming data, but understanding <b>genre relationships</b> and <b>trends in popularity</b> remains challenging.  
 This project shows how data engineering and ML techniques can turn raw Spotify metadata into actionable insights, such as:
@@ -23,7 +23,7 @@ This project shows how data engineering and ML techniques can turn raw Spotify m
   <li>Exploring semantic relationships between genres using BERT embeddings.</li>
 </ul>
 
-<h2>Project Workflow — How It Works</h2>
+<h2>Project Workflow</h2>
 
 <pre>
 1. Data Collection ─ <b>spotify_api.ipynb</b>  
@@ -138,6 +138,7 @@ jupyter notebook notebooks/Final.ipynb
   <li>Deploy the trained genre classifier as an API endpoint.</li>
   <li>Expand the dataset with additional streaming metrics.</li>
 </ul>
+
 
 
 
