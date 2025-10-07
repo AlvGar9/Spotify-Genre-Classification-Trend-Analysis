@@ -19,8 +19,8 @@
 </p>
 
 <p>
-  <img src="assets/image1.png" height="299" width="auto" alt="Project visual 1">
-  <img src="assets/image2.png" height="299" width="auto" alt="Project visual 2">
+  <img src="assets/image1.png" height="290" width="auto" alt="Project visual 1">
+  <img src="assets/image2.png" height="290" width="auto" alt="Project visual 2">
 </p>
 
 </div>
@@ -182,6 +182,7 @@ jupyter notebook notebooks/BERT_genre_encoder.ipynb
 
 </body>
 </html>
+
 
 
 
