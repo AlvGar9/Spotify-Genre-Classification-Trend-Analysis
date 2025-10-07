@@ -27,14 +27,14 @@
 
 ---
 
-<h2>📖 Overview</h2>
+<h2>Overview</h2>
 <p>
 This project builds a complete data workflow to collect, enrich, and analyze Spotify music data — from raw metadata extraction to genre classification and trend modeling. It demonstrates real-world skills in <b>data acquisition, preprocessing, NLP, and machine learning</b> by integrating multiple stages into one cohesive system.
 </p>
 
 ---
 
-<h2>🎯 Impact & Motivation</h2>
+<h2>Impact & Motivation</h2>
 <p>
 The music industry produces massive amounts of streaming data, but understanding <b>genre relationships</b> and <b>trends in popularity</b> remains challenging. This project shows how data engineering and ML techniques can turn raw Spotify metadata into actionable insights, such as:
 </p>
@@ -46,7 +46,7 @@ The music industry produces massive amounts of streaming data, but understanding
 
 ---
 
-<h2>⚙️ Project Workflow</h2>
+<h2>Project Workflow</h2>
 <p>The project is structured as a sequential pipeline, with optional notebooks for deeper analysis.</p>
 <ol>
   <li><b>Data Collection</b> ─ <a href="notebooks/spotify_api.ipynb"><code>spotify_api.ipynb</code></a><br>
@@ -67,7 +67,7 @@ The music industry produces massive amounts of streaming data, but understanding
 
 ---
 
-<h2>📊 Key Results</h2>
+<h2>Key Results</h2>
 <ul>
   <li><b>Accurate Genre Classification:</b> Achieved <strong>XX.X% F1-score</strong> in predicting parent genres, with CatBoost being the top-performing model.</li>
   <li><b>Data Enrichment at Scale:</b> The web scraping script automatically generated a mapping for over 1,500 unique subgenres to 15 distinct parent genres.</li>
@@ -78,7 +78,7 @@ The music industry produces massive amounts of streaming data, but understanding
 
 ---
 
-<h2>🛠️ Tech Stack</h2>
+<h2>Tech Stack</h2>
 <table>
 <tr><th>Category</th><th>Tools & Libraries</th></tr>
 <tr><td>Data Access & Scraping</td><td>Spotify API (Spotipy), Requests, BeautifulSoup</td></tr>
@@ -114,7 +114,7 @@ spotify-genre-analysis/
 
 ---
 
-<h2>🚀 Getting Started</h2>
+<h2>Getting Started</h2>
 
 <h3>Prerequisites</h3>
 <ul>
@@ -162,26 +162,22 @@ jupyter notebook notebooks/BERT_genre_encoder.ipynb
 
 ---
 
-<h2>🤝 Contributing</h2>
-<p>Contributions are welcome! If you have suggestions for improvements or find any issues, please feel free to open an issue or submit a pull request.</p>
-
----
-
-<h2>📄 License</h2>
+<h2>License</h2>
 <p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more details.</p>
 
 ---
 
-<h2>👤 Authors</h2>
+<h2>Authors</h2>
 <p>
   <b>Álvaro Garabal Castro, Marc Camps, Ankur Chauhan, Serkan Musellim</b><br>
-  🎓 MSc in Artificial Intelligence, University of Edinburgh<br>
+  MSc in Artificial Intelligence, University of Edinburgh<br>
   🔗 <a href="https://www.linkedin.com/in/alvarogarabal">LinkedIn</a> • 
   <a href="https://github.com/alvarogarabal">GitHub</a>
 </p>
 
 </body>
 </html>
+
 
 
 
