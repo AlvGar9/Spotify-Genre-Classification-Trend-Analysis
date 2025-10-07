@@ -1,106 +1,144 @@
-<h1 align="center">Spotify Genre Classification & Trend Analysis</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
 
-<p align="center">
-<b>End-to-end data pipeline leveraging the Spotify API, web scraping, and machine learning to classify and analyze musical genres.</b>
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="assets/image1.png" height="300" width="auto">
-  <img src="assets/image2.png" height="300" width="auto">
-</p>
+<h1>Spotify Genre Classification & Trend Analysis</h1>
 
-<hr>
+<p><b>An end-to-end data pipeline leveraging the Spotify API, web scraping, and machine learning to classify musical genres and analyze popularity trends.</b></p>
 
-<h2>Overview</h2>
 <p>
-This project builds a complete data workflow to collect, enrich, and analyze Spotify music data — from raw metadata extraction to genre classification and trend modeling.  
-It demonstrates real-world skills in <b>data acquisition, preprocessing, NLP, and machine learning</b> by integrating multiple stages into one cohesive system.
+  <img src="https://img.shields.io/badge/Python-3.7+-blue.svg" alt="Python Version">
+  <img src="https://img.shields.io/badge/Framework-Scikit--Learn-orange" alt="Scikit-Learn">
+  <img src="https://img.shields.io/badge/NLP-Sentence--Transformers-yellow" alt="Sentence-Transformers">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="License">
 </p>
 
-<h2>Impact & Motivation</h2>
 <p>
-The music industry produces massive amounts of streaming data, but understanding <b>genre relationships</b> and <b>trends in popularity</b> remains challenging.  
-This project shows how data engineering and ML techniques can turn raw Spotify metadata into actionable insights, such as:
+  <img src="assets/image1.png" height="300" width="auto" alt="Project visual 1">
+  <img src="assets/image2.png" height="300" width="auto" alt="Project visual 2">
+</p>
+
+</div>
+
+---
+
+<h2>📖 Overview</h2>
+<p>
+This project builds a complete data workflow to collect, enrich, and analyze Spotify music data — from raw metadata extraction to genre classification and trend modeling. It demonstrates real-world skills in <b>data acquisition, preprocessing, NLP, and machine learning</b> by integrating multiple stages into one cohesive system.
+</p>
+
+---
+
+<h2>🎯 Impact & Motivation</h2>
+<p>
+The music industry produces massive amounts of streaming data, but understanding <b>genre relationships</b> and <b>trends in popularity</b> remains challenging. This project shows how data engineering and ML techniques can turn raw Spotify metadata into actionable insights, such as:
 </p>
 <ul>
-  <li>Automatically identifying parent genres from thousands of subgenres.</li>
-  <li>Analyzing how musical preferences evolve over time.</li>
-  <li>Exploring semantic relationships between genres using BERT embeddings.</li>
+  <li>Automatically identifying parent genres from thousands of niche subgenres.</li>
+  <li>Analyzing how musical preferences and song popularity evolve over time.</li>
+  <li>Exploring semantic relationships between genres using powerful BERT embeddings.</li>
 </ul>
 
-<h2>Project Workflow</h2>
+---
 
-<pre>
-1. Data Collection ─ <b>spotify_api.ipynb</b>  
-   → Fetch song & artist metadata using the Spotify API  
+<h2>⚙️ Project Workflow</h2>
+<p>The project is structured as a sequential pipeline, with optional notebooks for deeper analysis.</p>
+<ol>
+  <li><b>Data Collection</b> ─ <a href="notebooks/spotify_api.ipynb"><code>spotify_api.ipynb</code></a><br>
+    → Fetches song and artist metadata using the Spotipy library to interact with the Spotify API.</li>
 
-2. Genre Enrichment ─ <b>genre_scrape.py</b>  
-   → Scrape parent-genre mappings from online sources  
+  <li><b>Genre Enrichment</b> ─ <a href="scripts/genre_scrape.py"><code>genre_scrape.py</code></a><br>
+    → Scrapes parent-genre mappings from <a href="https://www.chosic.com/genre-chart/">chosic.com</a> to create a genre hierarchy.</li>
 
-3. Genre Classification ─ <b>Final.ipynb</b>  
-   → Train ML models to predict parent genres  
+  <li><b>Genre Classification</b> ─ <a href="notebooks/Final.ipynb"><code>Final.ipynb</code></a><br>
+    → Cleans the data, engineers features, and trains machine learning models (Random Forest, CatBoost) to predict parent genres from audio features and subgenre names.</li>
 
-4. (Optional) Time-Series Analysis ─ <b>time_series.ipynb</b>  
-   → Study popularity trends and temporal patterns  
+  <li><b>(Optional) Time-Series Analysis</b> ─ <a href="notebooks/time_series.ipynb"><code>time_series.ipynb</code></a><br>
+    → Studies song popularity trends and temporal patterns using models like Prophet and ARIMA.</li>
 
-5. (Optional) Semantic Encoding ─ <b>BERT_genre_encoder.ipynb</b>  
-   → Cluster genres using Sentence-BERT embeddings
-</pre>
+  <li><b>(Optional) Semantic Encoding</b> ─ <a href="notebooks/BERT_genre_encoder.ipynb"><code>BERT_genre_encoder.ipynb</code></a><br>
+    → An alternative to web scraping, this notebook uses Sentence-BERT to generate genre embeddings and clusters them to find semantic parent genres.</li>
+</ol>
 
-<h2>Key Results</h2>
+---
+
+<h2>📊 Key Results</h2>
 <ul>
-  <li><b>Accurate genre classification:</b> Models such as Random Forest and CatBoost successfully predicted parent genres with strong performance.</li>
-  <li><b>Data enrichment at scale:</b> Automated scraping extended Spotify’s metadata with hierarchical genre labels.</li>
-  <li><b>Semantic exploration:</b> BERT embeddings revealed meaningful relationships between subgenres.</li>
-  <li><b>Temporal insights:</b> Time-series models captured evolving trends in song popularity.</li>
+  <li><b>Accurate Genre Classification:</b> Achieved <strong>XX.X% F1-score</strong> in predicting parent genres, with CatBoost being the top-performing model.</li>
+  <li><b>Data Enrichment at Scale:</b> The web scraping script automatically generated a mapping for over 1,500 unique subgenres to 15 distinct parent genres.</li>
+  <li><b>Semantic Genre Clustering:</b> BERT embeddings successfully grouped similar-sounding and culturally related genres, which can be visualized using UMAP for intuitive exploration.</li>
+  <li><b>Temporal Trend Insights:</b> Time-series analysis revealed seasonal patterns and long-term shifts in the popularity of different genres.</li>
 </ul>
-<p><i>(Detailed results and visuals are available inside each notebook.)</i></p>
+<p><i>(Detailed results, code, and visualizations are available inside each notebook.)</i></p>
 
-<hr>
+---
 
-<h2>Tech Stack</h2>
+<h2>🛠️ Tech Stack</h2>
 <table>
 <tr><th>Category</th><th>Tools & Libraries</th></tr>
-<tr><td>Data Access</td><td>Spotify API, Spotipy</td></tr>
-<tr><td>Data Processing</td><td>Pandas, NumPy, Regex, BeautifulSoup</td></tr>
-<tr><td>Machine Learning</td><td>Scikit-Learn, CatBoost, XGBoost</td></tr>
-<tr><td>Deep Learning / NLP</td><td>Sentence-Transformers, TensorFlow</td></tr>
-<tr><td>Visualization</td><td>Matplotlib, Seaborn</td></tr>
+<tr><td>Data Access & Scraping</td><td>Spotify API (Spotipy), Requests, BeautifulSoup</td></tr>
+<tr><td>Data Processing & EDA</td><td>Pandas, NumPy, Matplotlib, Seaborn, Regex</td></tr>
+<tr><td>Machine Learning</td><td>Scikit-Learn, CatBoost, XGBoost, UMAP-learn</td></tr>
+<tr><td>Deep Learning / NLP</td><td>Sentence-Transformers (BERT), TensorFlow</td></tr>
 <tr><td>Time-Series Modeling</td><td>Prophet, Statsmodels</td></tr>
-<tr><td>Other</td><td>tqdm, Requests</td></tr>
+<tr><td>Utilities</td><td>tqdm, Jupyter Notebooks</td></tr>
 </table>
 
-<hr>
+---
 
-<h2>Repository Structure</h2>
+<h2>📂 Repository Structure</h2>
 <pre>
 spotify-genre-analysis/
- ┣ 📂 notebooks/
- ┃ ┣ spotify_api.ipynb
- ┃ ┣ Final.ipynb
- ┃ ┣ time_series.ipynb
- ┃ ┗ BERT_genre_encoder.ipynb
- ┣ 📂 scripts/
- ┃ ┗ genre_scrape.py
- ┣ 📂 data/
- ┃ ┣ output_with_genres.csv
- ┃ ┗ parent_genre.csv
- ┣ requirements.txt
- ┣ .gitignore
- ┗ README.md
+ ┣ 📂 assets/
+ ┃ ┣ image1.png
+ ┃ ┗ image2.png
+ ┣ 📂 notebooks/
+ ┃ ┣ spotify_api.ipynb
+ ┃ ┣ Final.ipynb
+ ┃ ┣ time_series.ipynb
+ ┃ ┗ BERT_genre_encoder.ipynb
+ ┣ 📂 scripts/
+ ┃ ┗ genre_scrape.py
+ ┣ 📂 data/
+ ┃ ┣ output_with_genres.csv
+ ┃ ┗ parent_genre.csv
+ ┣ .gitignore
+ ┣ requirements.txt
+ ┗ README.md
 </pre>
 
-<hr>
+---
 
-<h2>Setup & Usage</h2>
+<h2>🚀 Getting Started</h2>
 
-<h3>1️⃣ Install dependencies</h3>
+<h3>Prerequisites</h3>
+<ul>
+  <li>Python 3.7+</li>
+  <li>Git</li>
+</ul>
+
+<h3>1. Clone the Repository</h3>
+<pre><code>git clone https://github.com/yourusername/spotify-genre-analysis.git
+cd spotify-genre-analysis</code></pre>
+<h3>2. Install Dependencies</h3>
+<p>Install all the required libraries using the <code>requirements.txt</code> file.</p>
 <pre><code>pip install -r requirements.txt</code></pre>
 
-<h3>2️⃣ Configure Spotify API credentials</h3>
-<p>Create an app on the <a href="https://developer.spotify.com/dashboard/">Spotify Developer Dashboard</a> and add your <b>Client ID</b> and <b>Client Secret</b> in <code>spotify_api.ipynb</code>.</p>
+<h3>3. Configure Spotify API Credentials</h3>
+<p>To fetch data from Spotify, you need to provide your own API credentials:</p>
+<ol>
+  <li>Go to the <a href="https://developer.spotify.com/dashboard/">Spotify Developer Dashboard</a> and create a new application.</li>
+  <li>Note down your <b>Client ID</b> and <b>Client Secret</b>.</li>
+  <li>Open <code>notebooks/spotify_api.ipynb</code> and paste your credentials into the designated cells.</li>
+</ol>
 
-<h3>3️⃣ Run the workflow</h3>
+<h3>4. Run the Main Pipeline</h3>
+<p>Execute the scripts and notebooks in the following order:</p>
 <pre><code># Step 1: Fetch Spotify metadata
 jupyter notebook notebooks/spotify_api.ipynb
 
@@ -108,50 +146,39 @@ jupyter notebook notebooks/spotify_api.ipynb
 python scripts/genre_scrape.py
 
 # Step 3: Analyze and classify genres
+# IMPORTANT: In this notebook, remember to set the `categorical_encoding`
+# variable to your desired method at the beginning of Task 1.
 jupyter notebook notebooks/Final.ipynb
 </code></pre>
 
-<h3>Optional notebooks</h3>
-<ul>
-  <li><code>notebooks/time_series.ipynb</code> → Analyze temporal trends</li>
-  <li><code>notebooks/BERT_genre_encoder.ipynb</code> → Cluster genres semantically</li>
-</ul>
+<h3>5. Run Optional Analyses</h3>
+<p>To explore trend analysis or semantic genre clustering, run the supplementary notebooks:</p>
+<pre><code># For time-series analysis
+jupyter notebook notebooks/time_series.ipynb
 
-<hr>
+# For semantic genre clustering with BERT
+jupyter notebook notebooks/BERT_genre_encoder.ipynb
+</code></pre>
 
-<h2>Insights & Takeaways</h2>
-<ul>
-  <li>Demonstrates <b>end-to-end ML system design</b>, from data acquisition to model evaluation.</li>
-  <li>Combines <b>API integration, web scraping, feature engineering, and ML classification</b>.</li>
-  <li>Showcases ability to <b>structure complex workflows</b> and communicate results clearly.</li>
-  <li>Modular and extensible — each step can be reused for other data-driven projects.</li>
-</ul>
+---
 
-<hr>
+<h2>🤝 Contributing</h2>
+<p>Contributions are welcome! If you have suggestions for improvements or find any issues, please feel free to open an issue or submit a pull request.</p>
+
+---
+
+<h2>📄 License</h2>
+<p>This project is licensed under the MIT License. See the <a href="LICENSE">LICENSE</a> file for more details.</p>
+
+---
 
 <h2>👤 Authors</h2>
-<p><b>Álvaro Garabal Castro, Marc Camps, Ankur Chauhan, Serkan Musellim</b><br>
-🎓 MSc in Artificial Intelligence, University of Edinburgh<br>
-🔗 <a href="https://www.linkedin.com/in/alvarogarabal">LinkedIn</a> • 
-<a href="https://github.com/yourusername">GitHub</a></p>
+<p>
+  <b>Álvaro Garabal Castro, Marc Camps, Ankur Chauhan, Serkan Musellim</b><br>
+  🎓 MSc in Artificial Intelligence, University of Edinburgh<br>
+  🔗 <a href="https://www.linkedin.com/in/alvarogarabal">LinkedIn</a> • 
+  <a href="https://github.com/alvarogarabal">GitHub</a>
+</p>
 
-<hr>
-
-<h2>Next Steps</h2>
-<ul>
-  <li>Develop an interactive dashboard for visualizing genre trends.</li>
-  <li>Deploy the trained genre classifier as an API endpoint.</li>
-  <li>Expand the dataset with additional streaming metrics.</li>
-</ul>
-
-
-
-
-
-
-
-
-
-
-
-
+</body>
+</html>
