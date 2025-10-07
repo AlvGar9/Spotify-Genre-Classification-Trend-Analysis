@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <img src="path/to/your/image1.png" width="48%">
-  <img src="path/to/your/image2.png" width="48%">
+  <img src="assets/image1.png" width="48%">
+  <img src="assets/image2.png" width="48%">
 </p>
 
 <hr>
@@ -143,6 +143,7 @@ jupyter notebook notebooks/Final.ipynb
   <li>Deploy the trained genre classifier as an API endpoint.</li>
   <li>Expand the dataset with additional streaming metrics.</li>
 </ul>
+
 
 
 
