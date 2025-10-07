@@ -69,7 +69,7 @@ The music industry produces massive amounts of streaming data, but understanding
 
 <h2>Key Results</h2>
 <ul>
-  <li><b>Accurate Genre Classification:</b> Achieved <strong>XX.X% F1-score</strong> in predicting parent genres, with CatBoost being the top-performing model.</li>
+  <li><b>Accurate Genre Classification:</b> Achieved <strong>90.2% F1-score</strong> in predicting parent genres, with CatBoost being the top-performing model.</li>
   <li><b>Data Enrichment at Scale:</b> The web scraping script automatically generated a mapping for over 1,500 unique subgenres to 15 distinct parent genres.</li>
   <li><b>Semantic Genre Clustering:</b> BERT embeddings successfully grouped similar-sounding and culturally related genres, which can be visualized using UMAP for intuitive exploration.</li>
   <li><b>Temporal Trend Insights:</b> Time-series analysis revealed seasonal patterns and long-term shifts in the popularity of different genres.</li>
@@ -177,6 +177,7 @@ jupyter notebook notebooks/BERT_genre_encoder.ipynb
 
 </body>
 </html>
+
 
 
 
