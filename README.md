@@ -4,6 +4,11 @@
 <b>End-to-end data pipeline leveraging the Spotify API, web scraping, and machine learning to classify and analyze musical genres.</b>
 </p>
 
+<p align="center">
+  <img src="path/to/your/image1.png" width="48%">
+  <img src="path/to/your/image2.png" width="48%">
+</p>
+
 <hr>
 
 <h2>Overview</h2>
@@ -138,6 +143,7 @@ jupyter notebook notebooks/Final.ipynb
   <li>Deploy the trained genre classifier as an API endpoint.</li>
   <li>Expand the dataset with additional streaming metrics.</li>
 </ul>
+
 
 
 
