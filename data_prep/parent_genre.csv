@@ -1,0 +1,416 @@
+Genre,Parent Genre
+corrido,latin
+reggaeton,latin
+k-pop-girl-group,pop
+musica-chihuahuense,latin
+pop,pop
+gen-z-singer-songwriter,pop
+colombian-pop,pop
+afrobeats,R&B
+rap,Hip Hop
+canadian-contemporary-r&b,R&B
+florida-drill,Hip Hop
+Hip Hop,Hip Hop
+contemporary-country,country
+garage-rock,rock
+chicago-drill,Hip Hop
+latin-hip-hop,Hip Hop
+bedroom-pop,pop
+art-pop,pop
+big-room,Electronic
+corridos-tumbados,latin
+piano-rock,rock
+dance-pop,pop
+europop,pop
+chill-pop,pop
+modern-indie-pop,pop
+k-pop,pop
+permanent-wave,rock
+argentine-hip-hop,Hip Hop
+puerto-rican-pop,pop
+sad-sierreno,latin
+trap-boricua,latin
+detroit-hip-hop,Hip Hop
+gauze-pop,pop
+modern-alternative-rock,rock
+conscious-hip-hop,Hip Hop
+indonesian-pop,pop
+alt-z,pop
+banda,latin
+modern-rock,rock
+australian-hip-hop,Hip Hop
+latin-pop,pop
+toronto-indie,rock
+uk-contemporary-r&b,R&B
+anime,pop
+british-soul,R&B
+dfw-rap,Hip Hop
+r&b,R&B
+brostep,Electronic
+boy-band,pop
+glam-rock,rock
+j-pop,pop
+new-jersey-underground-rap,Hip Hop
+canadian-hip-hop,Hip Hop
+trap-argentino,latin
+folk-pop,pop
+afrofuturism,R&B
+filmi,World/Traditional
+new-romantic,rock
+neo-mellow,Folk/Acoustic
+canadian-pop,pop
+pop-rap,Hip Hop
+trap-brasileiro,latin
+ambient-pop,pop
+agronejo,country
+baroque-pop,pop
+viral-pop,pop
+pov:-indie,pop
+barbadian-pop,pop
+finnish-pop,pop
+alternative-rock,rock
+phonk-brasileiro,Hip Hop
+singer-songwriter-pop,pop
+album-rock,rock
+indie-folk,Folk/Acoustic
+sertanejo,latin
+arrocha,country
+g-funk,Hip Hop
+soft-rock,rock
+german-hip-hop,Hip Hop
+indie-poptimism,pop
+italian-adult-pop,pop
+alternative-metal,metal
+lgbtq+-hip-hop,Hip Hop
+r&b-brasileiro,R&B
+sped-up,pop
+chicago-indie,rock
+rap-canario,latin
+memphis-hip-hop,Hip Hop
+k-rap,Hip Hop
+hip-pop,pop
+irish-singer-songwriter,Folk/Acoustic
+bronx-drill,Hip Hop
+israeli-pop,pop
+trap-latino,latin
+classic-oklahoma-country,country
+korean-r&b,R&B
+comedy-rock,rock
+melodic-metalcore,metal
+atl-hip-hop,Hip Hop
+deep-underground-hip-hop,Hip Hop
+spanish-pop,pop
+chamber-pop,pop
+emo-rap,Hip Hop
+previa,
+latin-viral-pop,pop
+edmonton-indie,Folk/Acoustic
+bedroom-r&b,R&B
+drift-phonk,Electronic
+latin-talent-show,latin
+mambo-chileno,latin
+alternative-hip-hop,Hip Hop
+italian-hip-hop,Hip Hop
+grunge,rock
+southern-hip-hop,Hip Hop
+melodic-drill,Hip Hop
+funk-consciente,latin
+desi-pop,pop
+chicago-rap,Hip Hop
+r&b-en-espanol,R&B
+balochi-pop,pop
+japanese-teen-pop,pop
+korean-indie-rock,rock
+electro-latino,latin
+latin-arena-pop,pop
+escape-room,pop
+electropop,pop
+pluggnb,Hip Hop
+weirdcore,pop
+funk-pop,pop
+trap-queen,R&B
+funk-viral,R&B
+funk-mtg,R&B
+east-coast-hip-hop,Hip Hop
+neo-soul,R&B
+candy-pop,pop
+australian-pop,pop
+german-pop,pop
+indie-rock-italiano,rock
+meme,pop
+trap-baiano,Hip Hop
+funk-rj,pop
+reggaeton-mexicano,latin
+belgian-edm,Electronic
+edm,Electronic
+meme-rap,Hip Hop
+melodic-rap,Hip Hop
+funk-mandelao,R&B
+musica-mexicana,latin
+experimental-pop,pop
+pop-soul,R&B
+turkish-alt-pop,pop
+deep-groove-house,Electronic
+dancehall,World/Traditional
+hyperpop,pop
+irish-pop,pop
+palestinian-hip-hop,Hip Hop
+classic-rock,rock
+house,Electronic
+electro-house,Electronic
+indie-hip-hop,Hip Hop
+pop-dance,Electronic
+eurodance,pop
+canadian-latin,latin
+disco,R&B
+adult-standards,easy listening
+rock-and-roll,rock
+musical-advocacy,pop
+classic-uk-pop,pop
+blues,blues
+heartland-rock,rock
+motown,R&B
+brill-building-pop,pop
+hollywood,easy listening
+orchestral-soundtrack,classical
+jazz-trio,jazz
+classic-country-pop,pop
+celtic-punk,World/Traditional
+a-cappella,jazz
+novelty,rock
+classic-soul,R&B
+australian-dance,Electronic
+torch-song,jazz
+bolero,latin
+new-wave-pop,pop
+chicago-soul,R&B
+electro,Hip Hop
+latin-alternative,latin
+french-hip-hop,Hip Hop
+hard-rock,rock
+funk-carioca,Hip Hop
+urbano-chileno,latin
+movie-tunes,easy listening
+halloween,easy listening
+theme,easy listening
+australian-rock,rock
+underground-power-pop,pop
+dance-rock,rock
+glam-metal,metal
+german-drill,latin
+pittsburgh-rap,Hip Hop
+uk-dance,Electronic
+pop-reggaeton,latin
+pop-venezolano,latin
+turkce-slow-sarkilar,pop
+sinhala-indie,pop
+dreamo,rock
+pop-argentino,latin
+trap-chileno,latin
+bachata,latin
+brooklyn-drill,Hip Hop
+pakistani-pop,pop
+houston-rap,Hip Hop
+arrochadeira,country
+polish-hip-hop,Hip Hop
+turkish-hip-hop,Hip Hop
+partyschlager,Electronic
+hawaiian-hip-hop,Hip Hop
+uk-reggae,Electronic
+complextro,Electronic
+forro,country
+german-alternative-rap,Hip Hop
+afro-r&b,R&B
+indie-curitibano,World/Traditional
+desi-hip-hop,Hip Hop
+mariachi,latin
+ohio-hip-hop,Hip Hop
+indie-triste,latin
+urbano-espanol,latin
+ukrainian-hip-hop,Hip Hop
+indie-pop,pop
+uk-pop,pop
+dutch-pop,pop
+emo,rock
+cologne-indie,classical
+uk-hip-hop,Hip Hop
+sad-rap,Hip Hop
+la-indie,pop
+scandipop,pop
+turkce-drill,
+cali-rap,Hip Hop
+german-metal,metal
+aussietronica,Electronic
+gangster-rap,Hip Hop
+gambian-hip-hop,Hip Hop
+brazilian-hip-hop,Hip Hop
+modern-alternative-pop,pop
+k-pop-boy-group,pop
+indonesian-jazz,jazz
+dark-clubbing,Electronic
+alternative-r&b,R&B
+baton-rouge-rap,Hip Hop
+cloud-rap,Hip Hop
+indonesian-r&b,R&B
+panamanian-pop,pop
+alternative-pop-rock,rock
+belgian-pop,pop
+russian-drain,pop
+indie-r&b,R&B
+boston-indie,rock
+turkish-pop,pop
+j-division,pop
+indie-siciliano,Folk/Acoustic
+japanese-metalcore,metal
+italian-pop,pop
+polish-drill,
+tollywood,
+orlando-indie,pop
+deep-german-hip-hop,Hip Hop
+mexican-hip-hop,Hip Hop
+deboxe,
+german-dance,Electronic
+contemporary-r&b,R&B
+glitchcore,pop
+funk-bh,pop
+frauenrap,Hip Hop
+nyc-pop,pop
+sad-lo-fi,Electronic
+rap-latina,latin
+brooklyn-indie,rock
+boston-hip-hop,Hip Hop
+beatlesque,Folk/Acoustic
+dominican-pop,pop
+indie-pop-rap,Hip Hop
+classic-texas-country,country
+melanesian-pop,pop
+turkish-trap,Hip Hop
+concurso-de-talentos-argentino,
+plugg,Hip Hop
+comic,Hip Hop
+pixel,pop
+cumbia-pop,pop
+social-media-pop,pop
+dutch-edm,Electronic
+london-rap,Hip Hop
+viral-rap,Hip Hop
+black-americana,country
+queens-hip-hop,Hip Hop
+nyc-rap,Hip Hop
+football,World/Traditional
+eau-claire-indie,Folk/Acoustic
+nz-pop,pop
+funk-150-bpm,country
+reggaeton-colombiano,latin
+dembow,latin
+bubblegrunge,rock
+ukrainian-viral-pop,pop
+oulu-metal,metal
+bolobedu-house,Electronic
+nouvelle-chanson-francaise,World/Traditional
+icelandic-pop,pop
+bedroom-soul,R&B
+greek-pop,pop
+lithuanian-rock,rock
+maltese-pop,pop
+swedish-pop,pop
+metropopolis,Electronic
+reggaeton-flow,latin
+slap-house,Electronic
+belgian-hip-hop,Hip Hop
+canadian-indie-rock,rock
+florida-rap,Hip Hop
+australian-psych,metal
+deep-euro-house,Electronic
+german-cloud-rap,Hip Hop
+new-york-drill,Hip Hop
+indietronica,pop
+pop-edm,Electronic
+cubaton,latin
+deep-house,Electronic
+contemporary-vocal-jazz,jazz
+russelater,Electronic
+british-indie-rock,rock
+musica-jibara,latin
+basshall,Electronic
+pop-r&b,R&B
+girl-group,pop
+afroswing,World/Traditional
+irish-rock,rock
+albanian-hip-hop,Hip Hop
+acoustic-pop,pop
+kentucky-hip-hop,Hip Hop
+pagode,latin
+cologne-hip-hop,Hip Hop
+drill-francais,
+jawaiian,Hip Hop
+pop-lgbtq+-brasileira,pop
+danish-pop,pop
+dutch-hip-hop,Hip Hop
+indie-rockism,rock
+indie-liguria,classical
+funk,R&B
+pop-punk,rock
+grime,Electronic
+venezuelan-hip-hop,Hip Hop
+urbano-latino,latin
+brega-funk,pop
+chill-r&b,R&B
+bergamo-indie,metal
+circuit,Electronic
+indie-rock,rock
+gruperas-inmortales,latin
+dutch-house,Electronic
+flamenco-urbano,latin
+belgian-dance,pop
+argentine-indie,latin
+chicago-house,Electronic
+dirty-south-rap,Hip Hop
+comedy-rap,Hip Hop
+musique-guadeloupe,latin
+norwegian-pop,pop
+indie-anthem-folk,Folk/Acoustic
+afrofuturismo-brasileiro,latin
+colombian-hip-hop,Hip Hop
+la-pop,pop
+danish-electronic,Electronic
+miami-hip-hop,Hip Hop
+broadway,easy listening
+modern-folk-rock,rock
+golden-age-hip-hop,Hip Hop
+ccm,pop
+batidao-romantico,country
+reggae-fusion,pop
+cumbia,latin
+czech-pop,pop
+alabama-rap,Hip Hop
+deep-talent-show,country
+downtempo,Electronic
+indie-electropop,pop
+chilean-hardcore,latin
+indonesian-hip-hop,Hip Hop
+talent-show,pop
+show-tunes,easy listening
+british-invasion,rock
+celtic-rock,rock
+hands-up,pop
+trap,Hip Hop
+disco-house,Electronic
+chicano-rap,Hip Hop
+moldovan-pop,pop
+portuguese-pop,pop
+new-french-touch,Electronic
+alternative-dance,rock
+icelandic-indie,classical
+post-teen-pop,pop
+san-diego-rap,Hip Hop
+hyphy,Hip Hop
+melodipop,pop
+swedish-idol-pop,pop
+channel-islands-indie,World/Traditional
+channel-pop,pop
+canadian-electronic,Electronic
+deep-pop-edm,Electronic
+viral-trap,Hip Hop
+deep-tropical-house,Electronic
+swedish-tropical-house,Electronic
